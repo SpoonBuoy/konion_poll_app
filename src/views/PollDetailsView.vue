@@ -1,11 +1,11 @@
 <script setup>
 import { ref } from 'vue'
 import PollUserInfo from '../components/PollUserInfo.vue'
-import ActionButton from '../components/ActionButton.vue'
 import InfoMessage from '../components/InfoMessage.vue'
 
 const done = ref(false)
 const voted = ref(true)
+import VoteData from '../components/VoteData.vue'
 </script>
 
 <template>
@@ -13,11 +13,11 @@ const voted = ref(true)
     <div class="flex flex-row p-5 gap-20 justify-center items-center">
       <div class="flex flex-col">
         <PollUserInfo name="Member 1" />
-        <ActionButton text="Vote" />
+        <VoteData />
       </div>
       <div class="flex flex-col">
         <PollUserInfo name="Member 2" />
-        <ActionButton text="Vote" />
+        <VoteData />
       </div>
     </div>
     <div class="flex flex-row justify-center">

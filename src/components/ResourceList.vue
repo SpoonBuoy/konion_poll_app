@@ -1,7 +1,6 @@
 <script setup>
 import { ref } from 'vue'
 import LinkResource from './LinkResource.vue'
-
 const total = ref(3)
 </script>
 

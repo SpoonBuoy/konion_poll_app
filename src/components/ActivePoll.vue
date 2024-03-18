@@ -1,7 +1,12 @@
 <script setup>
+import router from '@/router'
 import PollUserInfo from '../components/PollUserInfo.vue'
 import ActionButton from './ActionButton.vue'
 import StateBadge from './StateBadge.vue'
+
+const details = () => {
+  router.push({ name: 'detail' })
+}
 </script>
 
 <template>
@@ -19,6 +24,6 @@ import StateBadge from './StateBadge.vue'
       <PollUserInfo name="Donald Trump" votes="10" />
     </div>
 
-    <ActionButton text="Enter" />
+    <ActionButton text="Enter" @click="details" />
   </div>
 </template>
