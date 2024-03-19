@@ -15,7 +15,7 @@ import ResourceView from '@/views/ResourceView.vue'
         <TabsIndicator
           class="absolute px-8 left-0 h-[2px] bottom-0 w-[--radix-tabs-indicator-size] translate-x-[--radix-tabs-indicator-position] rounded-full transition-[width,transform] duration-300"
         >
-          <div class="bg-green-400 w-full h-full" />
+          <div class="bg-red-300 w-full h-full" />
         </TabsIndicator>
         <TabsTrigger
           class="bg-white px-5 h-[45px] flex-1 flex items-center justify-center text-[15px] leading-none text-mauve11 select-none rounded-tl-md hover:text-grass11 data-[state=active]:text-grass11 outline-none cursor-default"

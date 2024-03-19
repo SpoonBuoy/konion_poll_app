@@ -9,7 +9,7 @@ import VoteData from '../components/VoteData.vue'
 </script>
 
 <template>
-  <div class="bg-red-200 p-5">
+  <div class="p-5 pt-7">
     <div class="flex flex-row p-5 gap-20 justify-center items-center">
       <div class="flex flex-col">
         <PollUserInfo name="Member 1" />

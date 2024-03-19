@@ -12,7 +12,7 @@ const details = () => {
 
 <template>
   <div
-    class="flex flex-col justify-start gap-10 items-center border-2 border-black rounded-lg py-5 w-[98%] md:w-[80%] lg:w-[60%] relative"
+    class="flex flex-col justify-start gap-10 items-center border-2 border-green-200 rounded-lg py-5 w-[98%] md:w-[80%] lg:w-[60%] relative"
   >
     <StateBadge message="Live" icon="bi bi-broadcast" />
     <div class="flex flex-row items-center gap-6 sm:gap-7 md:gap-10 lg:gap-16 mt-10 mb-10">
@@ -30,8 +30,9 @@ const details = () => {
     <div class="flex flex-row absolute bottom-0 rounded-b-lg w-full bg-green-100 justify-between">
       <CountDown text="Enter" class="w-[30%] shadow-white opacity-50 bg-inherit hover:opacity-70" />
       <ActionButton
-        text="Enter"
+        text="Participate"
         @click="details"
+        icon="bi bi-caret-right"
         class="w-[30%] lg:w-[10%] opacity-50 shadow-white bg-inherit hover:opacity-70"
       />
     </div>

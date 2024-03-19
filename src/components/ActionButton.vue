@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps(['text', 'action'])
+const props = defineProps(['text', 'action', 'icon'])
 </script>
 
 <template>
@@ -8,5 +8,6 @@ const props = defineProps(['text', 'action'])
     @click="action"
   >
     {{ props.text }}
+    <i :class="props.icon" />
   </button>
 </template>

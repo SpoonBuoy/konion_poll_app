@@ -1,5 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import PollBanner from '@/components/PollBanner.vue'
+import AppFooter from '@/components/AppFooter.vue'
 </script>
 
 <template>
@@ -11,8 +13,10 @@ import { RouterLink, RouterView } from 'vue-router'
       </nav>
     </div>
   </header>
+  <PollBanner />
 
   <RouterView />
+  <AppFooter />
 </template>
 
 <style scoped></style>
