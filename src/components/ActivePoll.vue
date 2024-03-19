@@ -21,19 +21,18 @@ const details = () => {
         name="Chris Allen"
         votes="21"
       />
-      <h1>VS</h1>
+      <div class="w-16 md:w-20 lg:w-30">
+        <img src="/public/flash.jpg" class="relative bottom-7" />
+      </div>
+
       <PollUserInfo name="Donald Trump" votes="10" />
     </div>
     <div class="flex flex-row absolute bottom-0 rounded-b-lg w-full bg-green-100 justify-between">
-      <CountDown
-        text="Enter"
-        @click="details"
-        class="w-[30%] shadow-white opacity-50 bg-inherit hover:opacity-70"
-      />
+      <CountDown text="Enter" class="w-[30%] shadow-white opacity-50 bg-inherit hover:opacity-70" />
       <ActionButton
         text="Enter"
         @click="details"
-        class="w-[30%] opacity-50 shadow-white bg-inherit hover:opacity-70"
+        class="w-[30%] lg:w-[10%] opacity-50 shadow-white bg-inherit hover:opacity-70"
       />
     </div>
   </div>
