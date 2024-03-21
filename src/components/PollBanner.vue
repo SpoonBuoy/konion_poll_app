@@ -1,20 +1,20 @@
 <script setup></script>
 
 <template>
-  <div
-    class="flex flex-col justify-start items-center bg-red-100 mb-4 p-4 h-max-[100px] rounded-t-3xl"
-  >
+  <div class="flex flex-col justify-start items-center bg-orange-100 mb-4 p-4 h-[300px]">
     <!-- <img src="/public/maple.png" class="w-[6%] h-[6%]" />
     <img src="/public/onion.png" class="w-[6%] h-[6%]" /> -->
 
-    <img
+    <!-- <img
       src="/public/hotpot.png"
-      class="w-[50%] h-[50%] lg:w-[30%] lg:h-[30%] md:w-[30%] md:h-[30%] relative bottom-3"
-    />
-    <h2 class="font-bold text-red-400 text-lg">
-      <i class="bi bi-bar-chart animate-pulse" />
-      POLLS
-    </h2>
-    <h4 class="text-sm text-red-400 italic">by konion.xyz</h4>
+      class="w-[80%] h-[100%] lg:w-[15%] md:w-[30%] relative bottom-3"
+    /> -->
+    <h1 class="text-3xl font-bold text-orange-300">
+      You know the <span class="text-orange-600 italic text-4xl">CONTROVERSY</span> <br />
+      But do you know the <span class="text-orange-600 italic text-4xl">CONTEXT ?</span>
+    </h1>
+    <h2 class="font-bold text-orange-600 text-lg mt-20">POLLS</h2>
+    <!-- <h4 class="text-sm text-orange-600">by konion.xyz</h4> -->
   </div>
 </template>
+.

@@ -2,17 +2,19 @@
 import { RouterLink, RouterView } from 'vue-router'
 import PollBanner from '@/components/PollBanner.vue'
 import AppFooter from '@/components/AppFooter.vue'
+import AppHeader from '@/components/AppHeader.vue'
 </script>
 
 <template>
-  <header>
+  <!-- <header>
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
-  </header>
+  </header> -->
+  <AppHeader />
   <PollBanner />
 
   <RouterView />
